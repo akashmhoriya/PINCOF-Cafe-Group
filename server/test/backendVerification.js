@@ -1,6 +1,6 @@
 const http = require('http');
 
-const BASE_URL = 'https://pincof-cafe-frontend.onrender.com/';
+const BASE_URL = 'https://pincof-cafe-backend-0pbp.onrender.com';
 
 const makeRequest = (path, method = 'GET', body = null, headers = {}) => {
   return new Promise((resolve, reject) => {

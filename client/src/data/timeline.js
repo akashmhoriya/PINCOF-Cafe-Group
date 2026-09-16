@@ -1,0 +1,42 @@
+export const TIMELINE_EVENTS = [
+  {
+    year: "2018",
+    title: "The Genesis",
+    subtitle: "Direct-Trade Green Coffee Labs",
+    description: "PINCOF was founded by specialty roasters and hospitality architects in San Francisco with a mission to build scalable, uncompromising coffee concepts rooted in origin terroir and acoustic design.",
+    highlight: "First direct-trade micro-lot contracts signed with Yirgacheffe & Huila growers.",
+    image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    year: "2020",
+    title: "Flagship Concept",
+    subtitle: "Launch of Aurelia Slow Bar & Roastery",
+    description: "Debuted Aurelia, an intentional slow bar concept featuring walnut millwork, flush Modbar extraction, and acoustic calm. Awarded global acclaim for architectural specialty café design.",
+    highlight: "Awarded Best Specialty Hospitality Concept.",
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    year: "2022",
+    title: "Multi-Brand Portfolio",
+    subtitle: "Conceiving Kanso Espresso Lab & Central Roastery",
+    description: "Expanded our hospitality group into high-density urban transit corridors with Kanso, a Scandinavian-Japanese minimalist espresso bar, supported by a zero-emission electric fluid-bed central roastery.",
+    highlight: "Carbon-neutral certified roasting operation.",
+    image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    year: "2024",
+    title: "Franchise Platform",
+    subtitle: "Launch of Verdant & Maison & Molen",
+    description: "Introduced Verdant Botanical Café and Maison & Molen Bakery Café. Formalized the PINCOF Operator Academy, enabling vetted franchise partners to replicate turnkey operations seamlessly.",
+    highlight: "PINCOF Operator Academy opened in San Francisco.",
+    image: "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    year: "2026",
+    title: "Global Horizon",
+    subtitle: "24 Sanctuaries Across 6 Countries",
+    description: "Welcoming over 1.2 million guests annually across 5 distinctive concepts. Launching Solstice Roasting Co. and expanding franchise operations into premier metropolitan destinations worldwide.",
+    highlight: "Portfolio milestone: 24 active global flagships.",
+    image: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80",
+  },
+];

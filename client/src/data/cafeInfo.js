@@ -1,0 +1,40 @@
+export const CAFE_INFO = {
+  name: "AURELIA",
+  legalName: "Aurelia Specialty Coffee Roasters & Slow Bar LLC",
+  tagline: "Coffee, Crafted With Character.",
+  subheading: "A modern café experience built around exceptional coffee, good food and slow moments.",
+  phone: "+1 (415) 555-8294",
+  email: "hello@aureliacoffee.com",
+  reservationsEmail: "slowbar@aureliacoffee.com",
+  pressEmail: "press@aureliacoffee.com",
+  address: {
+    street: "418 Artisan Lane",
+    district: "Historic Roastery Quarter",
+    city: "San Francisco",
+    state: "CA",
+    zip: "94102",
+    full: "418 Artisan Lane, Historic Roastery Quarter, San Francisco, CA 94102",
+  },
+  hours: [
+    { days: "Monday — Friday", hours: "6:30 AM — 8:00 PM", notes: "Espresso Bar & Kitchen" },
+    { days: "Saturday", hours: "7:30 AM — 9:00 PM", notes: "Weekend Slow Bar Tastings" },
+    { days: "Sunday", hours: "7:30 AM — 8:00 PM", notes: "Acoustic Sets & Brunch" },
+  ],
+  socials: {
+    instagram: "https://instagram.com/aureliacoffee",
+    facebook: "https://facebook.com/aureliacoffee",
+    twitter: "https://twitter.com/aureliacoffee",
+    spotify: "https://spotify.com/aureliacafebar",
+  },
+  googleMapsUrl: "https://maps.google.com/?q=418+Artisan+Lane+San+Francisco+CA",
+  coordinates: {
+    lat: 37.7749,
+    lng: -122.4194,
+  },
+  stats: [
+    { value: 12, suffix: "+", label: "Signature Drinks", description: "In-house seasonal botanical recipes" },
+    { value: 8, suffix: "+", label: "Years of Craft", description: "Direct-trade micro-lot roasting" },
+    { value: 50, suffix: "K+", label: "Cups Served", description: "Meticulously extracted per annum" },
+    { value: 4.9, suffix: "/5", decimals: 1, label: "Guest Rating", description: "From over 2,400 reviews" },
+  ],
+};

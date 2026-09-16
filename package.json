@@ -1,0 +1,17 @@
+{
+  "name": "coffee-cafe-root",
+  "version": "1.0.0",
+  "description": "Aurelia Specialty Coffee Cafe - Full-Stack MERN Portfolio Website",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "seed": "npm --prefix server run seed",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "test:server": "npm --prefix server test",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["coffee", "cafe", "mern", "gsap", "react", "tailwind"],
+  "author": "Aurelia Coffee Roasters",
+  "license": "ISC"
+}

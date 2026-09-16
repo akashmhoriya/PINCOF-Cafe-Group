@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #140c08;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3c291f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c88949;
+}
+
+/* Base Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #140c08;
+  color: #ede5d8;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, .font-serif {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+/* Noise texture overlay for editorial warmth */
+.bg-noise {
+  background-image: radial-gradient(rgba(200, 137, 73, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Glassmorphism helpers */
+.glass-dark {
+  background: rgba(20, 12, 8, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 137, 73, 0.12);
+}
+
+.glass-card {
+  background: rgba(35, 23, 16, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(223, 210, 190, 0.08);
+}
+
+.glass-card:hover {
+  border-color: rgba(200, 137, 73, 0.35);
+}
+
+/* Subtle image reveal clipping */
+.clip-reveal {
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+}
+
+/* Interactive cursor styling */
+@media (pointer: fine) {
+  a, button, [role="button"], input, select, textarea {
+    cursor: none;
+  }
+}
+
+/* Accessibility: respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
